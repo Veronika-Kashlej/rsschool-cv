@@ -2,8 +2,8 @@
 # **My contacts info:** 
 * Phone: +375 29 967-90-67
 * E-mail: veronika.kashlei@mail.ru
-* GitHub: Veronika-Kashlej
-* Telegram k_veroniiika
+* GitHub: Veronika-Kashlej(https://github.com/Veronika-Kashlej/)
+* Telegram: k_veroniiika
 # **About me**
 ## I'm 17 years old, I'm studying at BSUIR, I want to work as a front-end developer, so I signed up for this course.
 # My strengths:
