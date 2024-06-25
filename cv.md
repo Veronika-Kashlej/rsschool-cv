@@ -7,6 +7,7 @@
 * Phone: *+375(29)-967-90-67*
 * E-mail: *veronika.kashlei@mail.ru*
 * Telegram: *@k_veroniiika*
+* Discord: *veronika-kashlej*
 
 ## **About me**
 
