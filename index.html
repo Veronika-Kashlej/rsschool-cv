@@ -3,18 +3,128 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="container"></div>
-    </header>
-    <main class="main">
-        <div class="container"></div>
-    </main>
-    <footer class="footer">
-        <div class="container"></div>
-    </footer>
+    <div class="container">
+        <header class="header">
+            <a href="#profile"><img class="resume" src="./assets/resume-and-cv-2.png" alt="profile"></a>
+                <nav class="nav">
+                    <ul class="nav-list">
+                      <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                      <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
+                      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                      <li class="nav-item"><a href="#code" class="nav-link">Code example</a></li>
+                      <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                      <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                      <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                  </nav>
+        </header>
+        <main class="main">
+                <section class="section" id="profile">
+                    <div class="profile">
+                        <div class="profile-image"></div>
+                      </div>
+                    <div class="text-profile">
+                        <h1>Hello, I'm Veronika Kashlej</h1>
+                        <p>Junior Frontend Developer</p>
+                    </div>
+                </section>
+                <section id="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li><a href="tel:+375299679067"><img class="logo-contacts" src="./assets/free-icon-phone-call-5585846.png" alt="phone">+375(29)9679067</a></li>
+                        <li><a href="https://mail.ru/"><img class="logo-contacts" src="./assets/email.png" alt="email">veronika.kashlei@mail.ru</a></li>
+                        <li><a href="https://web.telegram.org/a/#5921521143"><img class="logo-contacts" src="./assets/telegram.png" alt="telegram">@k_veroniiika</a></li>
+                        <li><a href="https://discord.com/login"><img class="logo-contacts" src="./assets/discord-2.png" alt="discord">veronika-kashlej</a></li>
+                    </ul>
+                </section>
+                <section id="aboutme">
+                    <h2>About me</h2>
+                    <p>I am an aspiring front-end developer with a strong passion for creating visually appealing and user-friendly web applications. What drew me to this field is the constant evolution of front-end technologies, which allows me to combine my creativity and problem-solving skills.
+                        As a dedicated learner, I am committed to staying up-to-date with industry trends and continuously expanding my skillset. My key strengths include proficiency in HTML, CSS, and JavaScript. I also have a strong understanding of responsive design principles and cross-browser compatibility.
+                        I am eager to join a dynamic and innovative team where I can put my skills to the test and learn from experienced professionals. My passion for front-end development, combined with my commitment to continuous learning, makes me a strong candidate for a junior front-end developer role.</p>
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li><img src="./assets/html-5.png" alt="html">HTML5</li>
+                        <li><img src="./assets/css-3-2.png" alt="css">CSS3</li>
+                        <li><img src="./assets/js.png" alt="js">JavaScript</li>
+                        <li><img src="./assets/icons8-код-визуальной-студии-2019-144.png" alt="vs code">VS Code</li>
+                        <li><img src="./assets/icons8-figma-144.png" alt="figma">Figma</li>
+                        <li><img src="./assets/commit-git.png" alt="git">Git</li>
+                    </ul>
+                </section>
+                <section id="code">
+                    <h2>Code example</h2>
+                    <pre><code>
+The rgb function is incomplete. Complete it so that passing in RGB decimal values will result in a hexadecimal representation being returned.
+Valid decimal values for RGB are 0 - 255. Any values that fall out of that range must be rounded to the closest valid value.
+
+Note: Your answer should always be 6 characters long, the shorthand with 3 will not work here.
+
+function rgb(r, g, b) {
+    return r.toString(16)+g.toString(16)+b.toString(16) + '000';
+}
+                        </code></pre>
+                </section>
+                <section id="experience">
+                    <h2>Experience</h2>
+                    <div class="project-cards">
+                        <div class="project-container">
+                            <p>Website for electronic library</p>
+                            <a class="button-project" href="https://rolling-scopes-school.github.io/veronika-kashlej-JSFEPRESCHOOL2023Q2/library/" target="_blank">See project</a>
+                        </div>
+                        <div class="project-container">
+                            <p>Image-gallery</p>
+                            <a class="button-project" href="https://rolling-scopes-school.github.io/veronika-kashlej-JSFEPRESCHOOL2023Q2/image-galery/" target="_blank">See project</a>
+                        </div>
+                        <div class="project-container">
+                            <p>Audio-player</p>
+                            <a class="button-project" href="https://rolling-scopes-school.github.io/veronika-kashlej-JSFEPRESCHOOL2023Q2/audio-player/" target="_blank">See project</a>
+                        </div>
+                        <div class="project-container">
+                            <p>Game</p>
+                            <a class="button-project" href="https://rolling-scopes-school.github.io/veronika-kashlej-JSFEPRESCHOOL2023Q2/memory-game/" target="_blank">See project</a>
+                        </div>
+                        <div class="project-container">
+                            <p>Website for coffee-house</p>
+                            <a class="button-project" href="https://rolling-scopes-school.github.io/veronika-kashlej-JSFE2023Q4/coffee-house/" target="_blank">See project</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="courses">
+                    <h2>Courses</h2>
+                    <ol>
+                        <li>1. BSUIR, FCAD, software engineering (*engineering and psychological support of IT) (2-th course)</li>
+                        <li>2. JS/FE Pre-school<img src="./assets/certificate-fe.png" alt="certificate"></li>
+                        <li>3. Various courses and intensive courses in web design<img src="./assets/certificate-figma.jpeg" alt="certificate"></li>
+                    </ol>
+                </section>
+                <section id="languages">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li><img src="./assets/free-icon-united-states-1140047.png" alt="english">English(B1)</li>
+                        <li><img src="./assets/russia.png" alt="russian">Russian(Native)</li>
+                        <li><img src="./assets/free-icon-belarus-164911.png" alt="belarussian">Belarussian(Native)</li>
+                        <li><img src="./assets/ukraine.png" alt="ukrainian">Ukrainian(Advanced)</li>
+                    </ul>
+                </section>
+        </main>
+        <footer class="footer">
+                <a href="https://github.com/Veronika-Kashlej"><img src="./assets/free-icon-github-2111432.png" alt="github"></a>
+                <p>2024</p>
+                <a href="https://rs.school"><img src="./assets/rsschool-logo.svg" alt="rsschool"></a>
+        </footer>
+    </div>
 </body>
 </html>
