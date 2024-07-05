@@ -201,6 +201,10 @@ pre {
     font-weight: 500;
     width: 190px;
     text-align: center;
+    transition: all 0.3s linear;
+  }
+  .button-project:hover{
+    background-color: rgba(217, 17, 97, 1);
   }
   .project-container{
     display: flex;
@@ -216,15 +220,14 @@ pre {
     background-position: center;
     overflow: hidden;
     position: relative;
-    border: 4px solid #871649;
   }
   .project-container p{
     font-size: 30px;
     font-weight: 700;
     background-color: #871649;
-    border: black 2px solid;
     padding: 15px 40px;
     margin-left: -40px;
+    width: 400px;
   }
   .project-cards > *:first-child{
     background-image: url(./assets/library-1.png);
@@ -258,7 +261,7 @@ pre {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(217, 17, 97, 0.1); 
+    background-color: rgba(217, 17, 97, 0.3); 
     pointer-events: none;
   }
   .project-cards{
@@ -278,6 +281,10 @@ pre {
   }
 #languages ul img{
     width: 100px;
+    transition: all 0.3s ease-in-out;
+}
+#languages ul img:hover{
+  scale: 1.2;
 }
 #languages ul li{
     display: flex;
