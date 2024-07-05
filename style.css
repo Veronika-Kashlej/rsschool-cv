@@ -40,6 +40,8 @@ html {
 .nav-list {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 25px;
   }
 .nav-item a{
@@ -65,14 +67,8 @@ html {
 }
 
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 15px 100px;
     background-color: rgba(217, 17, 97, 0.1);
-}
-.resume{
-    width: 60px;
 }
 
 main{
@@ -270,11 +266,11 @@ pre {
   ol img{
     width: 500px;
   }
-#languages ul img{
+#languages ul img, #skills ul img{
     width: 100px;
     transition: all 0.3s ease-in-out;
 }
-#languages ul img:hover{
+#languages ul img:hover, #skills ul img:hover{
   scale: 1.2;
 }
 #languages ul li{
