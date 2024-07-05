@@ -40,6 +40,8 @@ html {
 .nav-list {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     gap: 25px;
   }
 .nav-item a{
@@ -65,14 +67,8 @@ html {
 }
 
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 15px 100px;
     background-color: rgba(217, 17, 97, 0.1);
-}
-.resume{
-    width: 60px;
 }
 
 main{
@@ -155,6 +151,10 @@ main > *:first-child{
 #aboutme {
   padding: 100px;
   background-color: rgba(217, 17, 97, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+#aboutme:hover{
+  color: #871649;
 }
 #skills, #code, #experience, #courses, #languages{
     grid-column: 1/3;
@@ -187,6 +187,10 @@ pre {
     padding: 20px;
     border-radius: 5px;
     overflow-x: auto;
+    transition: all 0.3s ease-in-out;
+  }
+  pre:hover{
+    background-color: rgba(217, 17, 97, 0.2);
   }
   code {
     font-size: 18px;
@@ -201,6 +205,10 @@ pre {
     font-weight: 500;
     width: 190px;
     text-align: center;
+    transition: all 0.3s linear;
+  }
+  .button-project:hover{
+    background-color: rgba(217, 17, 97, 1);
   }
   .project-container{
     display: flex;
@@ -216,15 +224,14 @@ pre {
     background-position: center;
     overflow: hidden;
     position: relative;
-    border: 4px solid #871649;
   }
   .project-container p{
     font-size: 30px;
     font-weight: 700;
     background-color: #871649;
-    border: black 2px solid;
     padding: 15px 40px;
     margin-left: -40px;
+    width: 300px;
   }
   .project-cards > *:first-child{
     background-image: url(./assets/library-1.png);
@@ -251,16 +258,7 @@ pre {
     margin-right: 220px;
     width: 100%;
   }
-  .project-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(217, 17, 97, 0.1); 
-    pointer-events: none;
-  }
+  
   .project-cards{
     display: flex;
     flex-direction: column;
@@ -276,8 +274,12 @@ pre {
   ol img{
     width: 500px;
   }
-#languages ul img{
+#languages ul img, #skills ul img{
     width: 100px;
+    transition: all 0.3s ease-in-out;
+}
+#languages ul img:hover, #skills ul img:hover{
+  scale: 1.2;
 }
 #languages ul li{
     display: flex;
