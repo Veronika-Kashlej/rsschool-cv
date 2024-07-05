@@ -227,7 +227,7 @@ pre {
     background-color: #871649;
     padding: 15px 40px;
     margin-left: -40px;
-    width: 400px;
+    width: 300px;
   }
   .project-cards > *:first-child{
     background-image: url(./assets/library-1.png);
@@ -254,16 +254,7 @@ pre {
     margin-right: 220px;
     width: 100%;
   }
-  .project-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(217, 17, 97, 0.3); 
-    pointer-events: none;
-  }
+  
   .project-cards{
     display: flex;
     flex-direction: column;
