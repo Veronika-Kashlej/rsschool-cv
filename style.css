@@ -208,23 +208,23 @@ pre {
     margin-left: -40px;
   }
   .project-cards > *:first-child{
-    background-image: url(./assets/library.png);
+    background-image: url(./assets/library-1.png);
     margin-right: 220px;
   }
   .project-cards > *:nth-child(2){
-    background-image: url(./assets/image-gallery.png);
+    background-image: url(./assets/image-gallery-1.png);
     margin-left: 220px;
   }
   .project-cards > *:nth-child(3){
-    background-image: url(./assets/audio-player.png);
+    background-image: url(./assets/audio-player-1.png);
     margin-right: 220px;
   }
   .project-cards > *:nth-child(4){
-    background-image: url(./assets/game.png);
+    background-image: url(./assets/game-1.png);
     margin-left: 220px;
   }
   .project-cards > *:nth-child(5){
-    background-image: url(./assets/coffee-house.png);
+    background-image: url(./assets/coffee-house-1.png);
     margin-right: 220px;
   }
   .project-container::before {
